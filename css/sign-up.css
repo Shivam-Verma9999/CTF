@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #e0e0e0;
+}
+
+.pop-up-form {
+    height: 80%;
+    width: 100%;
+}
+
+#form-main-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(200, 200, 200, 0.35);
+}
+
+#form-div {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+#form-menu {
+    width: 305px;
+    height: 55px;
+}
+
+#form-content {
+    position: relative;
+    width: 920px;
+    height: 370px;
+    background: white;
+    overflow: hidden;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+
+
+
+#sign-up-form {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    left: 100%;
+    transition-duration: 1s;
+}
+
+.sign-up-form-content {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    background: pink;
+}
+
+#sign-up-left {
+    height: 100%;
+    width: 50%;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 50px;
+    display: none;
+}
+
+#sign-up-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    padding: 50px;
+    display: none;
+}
+
+.form-control {
+    height: 45px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid blue;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+
+.form-control:focus {
+    border: 1px solid #00e600;
+    box-shadow: 1px 1px 1px;
+}
+
+@keyframes loading {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotateZ(180deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+}
+
+#forget-password {
+    display: inline-block;
+    margin-top: -15px;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #00e600;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.tab-item {
+    width: 150px;
+    height: 100%;
+    position: relative;
+    float: left;
+    background: #989898;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.tab-item.active {
+    background: white;
+    color: #00e600;
+}
+
+#sign-in-form {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition-duration: 1s;
+    left: 0;
+}
+
+#sign-in-left {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#sign-in-right {
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 100%;
+    width: 50%;
+    background: url(../images/CTF.svg) no-repeat;
+}
+
+.message-box {
+    height: 20px;
+    margin-top: -22px;
+    color: red;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+#sign-in-message {
+    visibility: hidden;
+}
+
+
+
+#sign-on-form-controls {
+    flex: 1;
+    background: green;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+#forget-password-form-control {
+    position: absolute;
+    top: -100%;
+    transition-duration: 1s;
+    opacity: 0;
+}
+
+#sign-in-form-controls {
+    position: absolute;
+    top: 14.5%;
+    transition-duration: 1s;
+}
+
+#email-verification-message {
+    height: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 50px;
+    background: red;
+}
+
+#email-confirmation {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition-duration: 1s;
+    left: 0%;
+    background: white;
+    visibility: hidden;
+}
+
+#mail-confirmation-message {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    box-sizing: border-box;
+    padding: 50px;
+    background: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #00e600;
+}
+
+#loading {
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+#forget-password-container {
+    display: none;
+}
+
+#show-password {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../images/eye.png);
+    transform: translate(0, 70%);
+    background-size: contain;
+    cursor: pointer;
+}
+
+#sign-in-tab {
+    border-top-left-radius: 10px;
+}
+
+#sign-up-tab {
+    border-top-right-radius: 10px;
+}
+
+/* ------ Header CSS ------ */
+header {
+    height: 65px;
+    display: flex;
+    background: rgba(54,54,54,0.5);
+}
+
+.ctf_logo {
+    height: 65px;
+    width: 65px;
+    margin-left :40px;
+}
+
+nav {
+    height: 40px;
+    margin: auto;
+    margin-right: 40px;
+    display: flex;
+}
+
+.header_nav_ul {
+    margin: 0 !important;
+    height: 100%;
+}
+
+.header_nav_ul li {
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+* a {
+    text-decoration: none;
+    color: #fff;
+}
+.header_nav_ul a {
+    color: #41FF7A;
+    font-size: 12px;
+}

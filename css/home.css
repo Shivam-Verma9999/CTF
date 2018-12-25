@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	overflow: hidden;
+	font-family: Roboto;
+}
+
+.main_hero {
+	position: relative;
+	height: calc( 100vh - 65px );
+}
+
+.hero_text {
+	display: inline-block;
+	position: absolute;
+	top:40%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	font-size:1.7vw ;
+	letter-spacing: 3vw;
+	font-family: Roboto;
+	font-weight: bolder;
+	color: rgba(82,81,81,1.00);
+}
+
+.hero_text::after {
+	content: ">";
+	color: #0ec37f;
+	font-size: 150%;
+}
+.hero_text::before {
+	content: "<";
+	font-size: 150%;
+	color: #0ec37f;
+}
+
+.hero_small {
+	letter-spacing: 1vw;
+	font-family: sans-serif;
+}
+
+.hero_desc{
+	position: absolute;
+	bottom: 20px;
+	box-sizing: border-box;
+	padding: 25px 30px;
+	border-left: solid 3px green;
+	background: rgba(0, 250, 0, 0.1);
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+.hero_desc_left {
+	left: 80px;
+}
+.hero_desc_right {
+	right: 80px;
+}
+
+.hero_text center {
+display: inline-block;
+/*	border-bottom: solid 1px rgba(143,233,87,1.00);*/
+}
+
+.sign_up {
+	cursor: pointer;
+	margin-top: 35px;
+	font-size: 12px;
+	width:50%;
+	padding: 10px 20px;
+	text-align: center;
+	letter-spacing: 0px;
+	background: rgba(36,255,116,1.00);
+	border-radius: 20px;
+	margin-right: 40px;
+}
+
+header {
+	height: 65px;
+	display: flex;
+/*	background: rgba(54,54,54,1.00);*/
+}
+
+.ctf_logo {
+	height: 65px;
+	width: 65px;
+	margin-left :40px;
+}
+
+nav {
+	height: 40px;
+	margin: auto;
+	margin-right: 40px;
+	display: flex;
+}
+
+.header_nav_ul {
+	margin: 0 !important;
+	height: 100%;
+}
+
+.header_nav_ul li {
+	display: inline-block;
+	padding: 8px 20px;
+}
+
+* a {
+	text-decoration: none;
+	color: #fff;
+}
+.header_nav_ul a {
+	color: #41FF7A;
+	font-size: 12px;
+}
+
+.slant {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+	transform-origin: center;
+	height: 1px; 
+	width: 40%;
+	color: chartreuse;
+	background: chartreuse;
+}
+
+.message{
+    position: absolute;
+    bottom: 20px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+    border-left: solid 3px green;
+    border-right: solid 3px green;
+    background: rgba(0, 250, 0, 0.1);
+    font-size: 14px;
+    letter-spacing: 2px;
+    align-content: center;
+    width: 40vw;
+    height: 12vh;
+    margin-left: 30vw;
+}

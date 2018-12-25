@@ -1,0 +1,10 @@
+Prove your expertise by solving this puzzle .Break this RSA Encryption to disarm the bomb.
+
+RSA encryption/decryption is based on a formula that anyone can find and use, as long as they know the values to plug in. Given the encrypted number 15081533346123, d = 187941, and N = 4359981234579, what is the decrypted number?
+
+Ron Rivest,Adi Shamir and Leonard Adleman were the founding fathers of this encryption ,but you are better then them so lives of 400 people depends on you.
+
+Good Luck.
+
+Your Well Wisher
+Tryinh Lab

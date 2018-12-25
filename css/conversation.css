@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.main {
+    background: #dbdbdb;
+    width: 800px;
+    height: 580px;
+    overflow-y: auto;
+    margin: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: solid 1px aquamarine;
+}
+
+.form {
+    height: 70px;
+    width: 800px;
+    background: aquamarine;
+    margin: auto;
+    position: relative;
+}
+
+.form form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.inject_form form {
+    margin: auto;
+}
+
+.input {
+    flex: 1;
+    margin: auto;
+}
+
+.submit {
+    margin: auto;
+}
+
+.form input[type='text'] {
+    height: 30px;
+    border-radius: 5px;
+    text-indent: 5px;
+    border: solid 1px #dbdbdb;
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.form input[type='submit'] {
+    border: solid 1px #00bcd4;
+    height: 35px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 3px;
+    background: dodgerblue;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+.message_pane {
+    display: flex;
+    flex-direction: column;
+    min-height: 99%;
+    width: 99%;
+    margin: 0.5%;
+    background: rgba(20, 20, 20, 0.1);
+    /*    background: black;*/
+    /*    color: aliceblue;*/
+}
+
+.message {
+    flex-basis: 0;
+    background: white;
+    box-shadow: 5px 5px 10px 0px rgba(40, 51, 68, 0.2);
+    width: 60%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.recieved {
+    margin-left: 10px;
+    border-top-left-radius: 0px;
+}
+
+.sent {
+    margin-left: 300px;
+    border-bottom-right-radius: 0px;
+}
+
+.tony_name {
+    color: red;
+}
+
+.jarvis_name {
+    color: dodgerblue;
+}
+
+.message p {
+    margin-top: 0px;
+}
+
+.some_name {
+    color: chartreuse;
+}
+
+.invisible {
+    display: none;
+}
+
+.inject_form {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px 2px rgba(40, 50, 65, 0.2);
+    color: forestgreen;
+    display: flex;
+}
+
+.inject_form input {
+    margin-bottom: 10px;
+    height: 35px;
+    width: 270px;
+    border: solid 1px green;
+    text-indent: 5px;
+    border-radius: 5px;
+}

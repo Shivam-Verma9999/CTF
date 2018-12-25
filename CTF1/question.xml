@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <question category="1">
+    <qid>1</qid>
+    <title>Veni, vidi, vici</title>
+    <score>10</score>
+	<category>Cryptography</category>
+    <data> 
+	Robert reached the museum and searched everywhere to find anything suspicious and then he saw something written in Latin "Veni,vidi,vici".
+	These were the words of Julius Caesar during Battle of Zela.He knew there was something for him at that place and there was a tablet there with a 
+	<![CDATA[
+    <a href="venividivici.txt" target="blank">file</a>
+]]>
+ in it which was something gibberish.He realised that this was his first puzzle.Find the flag hidden in the file.
+      </data>
+
+  </question>
+  
+  <question category="1">
+    <qid>2</qid>
+    <title>Songs of Experience</title>
+    <score>20</score>
+	<category>Forensics</category>
+    <data> 
+	After solving the first puzzle a pop-up appeared with the words written "Songs of Experience" and an
+	<![CDATA[
+    <a href="soe.jpg" target="blank">image</a> 
+]]> of a tiger.Robert was clever enough to guess the writer of the book William Blake,but was having a slight trouble in finding the flag.Find the flag in the image .
+
+      </data>
+  </question>
+  
+  <question category="1">
+    <qid>3</qid>
+    <title>Maths is Fun</title>
+    <score>15</score>
+	<category>Cryptography</category>
+    <data> 
+	There was panic in the museum as a bomb started ticking somewhere .Robert hastily went  near a pillar following the ticking sound where there
+	was a bomb with a laptop attached which required an integer input.There was a 	<![CDATA[
+    <a href="rsa.txt" target="blank">Card</a> 
+]]> on the top of laptop addressing Robert.Robert saw the card and entered a number to disarm the bomb.What is the Number?
+
+ 
+      </data>
+  </question>
+  
+    <question category="1">
+    <qid>4</qid>
+    <title>Flip it Around</title>
+    <score>25</score>
+	<category>Cryptography</category>
+    <data> 
+	A small kid came to Robbie and gave him a
+	<![CDATA[
+    <a href="Flipitaround.txt" target="blank">Piece of paper</a>
+]]>
+.Something was written on it but he could not make out what it was.Then the tablet in his hand started flashing the phrase "Flip it Around".
+He knew what it meant and started to decode the message on the paper.Then the tablet requested for a password which was the decrypted message .What is
+the message.
+
+      </data>
+  </question>
+  
+    <question category="1">
+    <qid>5</qid>
+    <title>Annotates</title>
+    <score>30</score>
+	<category>Web Exploitation</category>
+    <data> 
+	The 
+	<![CDATA[
+    <a href="ann.htm" target="blank">Website</a> 
+]]> of Tryinh Lab appeared on the Tablet showing a popup with Annotates written on it and asking for input.Find the flag.
+
+
+      </data>
+  </question> 
+  
+    <question category="1">
+    <qid>6</qid>
+    <title>JavaScrypt</title>
+    <score>50</score>
+	<category>Web Exploitation</category>
+    <data> 
+	Another task came on the site with some password required to reach the next puzzle.It had something to do with the Developer options.
+	This <![CDATA[
+    <a href="javascry.htm" target="blank">webpage</a> 
+]]> came on the screen.
+
+
+      </data>
+  </question>
+  
+    <question category="1">
+    <qid>7</qid>
+    <title>Hasta La Vista Baby</title>
+    <score>70</score>
+	<category>Miscellaneous</category>
+    <data> 
+	Arnold Schwarzenegger one liners comprised the next set of puzzles.The next puzzle was quite interesting.
+	It contained a  
+	<![CDATA[
+    <a href="arnnie.png" target="blank">image</a>
+]]>
+find the message encoded in the Terminators word.
+
+      </data>
+  </question> 
+  
+    <question category="1">
+    <qid>8</qid>
+    <title>RSA - 2</title>
+    <score>95</score>
+	<category>Cryptography</category>
+    <data> 
+	After solving puzzles for an hour Robert was presented with the video of his girlfriend to convince him that she was well.He was given the last
+	puzzle of the night which involved mathematical knowledge and RSA returned once again.A
+	<![CDATA[
+    <a href="rsa2.txt" target="blank">File</a> 
+]]>
+was given to find the flag.Enter the message its not a number.
+
+      </data>
+  </question>
+  
+</questions>
+
+
